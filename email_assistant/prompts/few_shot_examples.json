@@ -1,0 +1,43 @@
+[
+  {
+    "input": {
+      "intent": "Follow up after a product demo",
+      "facts": [
+        "Demo held on June 10th",
+        "Client interested in analytics dashboard",
+        "Pricing proposal due June 17th",
+        "Next step: technical deep-dive call"
+      ],
+      "tone": "Professional and warm"
+    },
+    "output": "Subject: Following Up on Our Product Demo – Next Steps\n\nDear [Recipient Name],\n\nThank you for joining us for the product demo on June 10th. It was a pleasure walking you through the platform, and I was genuinely pleased to hear your enthusiasm for the analytics dashboard — it is one of our most powerful features and I believe it will add real value for your team.\n\nAs discussed, I will have our pricing proposal ready and over to you by June 17th. In the meantime, I would love to schedule a technical deep-dive call so our engineering team can address any detailed questions and show you exactly how the dashboard integrates with your existing stack.\n\nPlease let me know your availability for the deep-dive call and I will get a calendar invite out to you straight away.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "input": {
+      "intent": "Apologise for service outage and explain resolution",
+      "facts": [
+        "Outage occurred on June 8th from 2pm to 6pm EST",
+        "Root cause: database failover failure",
+        "All systems restored by 6:15pm",
+        "Implementing redundancy upgrade by June 30th",
+        "Offering 20% credit on next invoice"
+      ],
+      "tone": "Empathetic and apologetic"
+    },
+    "output": "Subject: Our Sincere Apologies for the Service Disruption on June 8th\n\nDear [Recipient Name],\n\nI am writing to personally apologise for the service outage that affected your operations on June 8th between 2:00 PM and 6:00 PM EST. I fully understand how disruptive this must have been, and I take complete responsibility for the impact it had on your team.\n\nFollowing an immediate investigation, our engineering team identified the root cause as a database failover failure. All systems were fully restored by 6:15 PM EST. To ensure this never happens again, we are implementing a comprehensive redundancy upgrade across our infrastructure, which will be completed by June 30th.\n\nAs a token of our sincere apology, we are applying a 20% credit to your next invoice — this will be reflected automatically on your upcoming statement. We value your trust enormously and are committed to providing the reliable service you deserve. Please do not hesitate to reach out directly if you have any further questions or concerns.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "input": {
+      "intent": "Invite key stakeholders to a quarterly strategy meeting",
+      "facts": [
+        "Meeting on July 5th at 10am EST",
+        "Agenda: Q2 review and Q3 roadmap",
+        "Location: Conference Room A / Zoom link provided",
+        "RSVP required by June 28th",
+        "Lunch will be provided"
+      ],
+      "tone": "Formal and professional"
+    },
+    "output": "Subject: Invitation – Quarterly Strategy Meeting, July 5th at 10:00 AM EST\n\nDear [Recipient Name],\n\nI would like to formally invite you to our Quarterly Strategy Meeting, scheduled for July 5th at 10:00 AM EST. Your presence and input are invaluable, and I look forward to your participation in what promises to be a highly productive session.\n\nThe agenda will cover a thorough review of our Q2 performance alongside the strategic roadmap for Q3. The meeting will be held in Conference Room A, with a Zoom link also provided for those joining remotely. Lunch will be provided for all in-person attendees.\n\nKindly confirm your attendance by June 28th so we can finalise logistical arrangements. Should you have any agenda items you wish to raise in advance, please do not hesitate to share them with me ahead of the meeting.\n\nYours sincerely,\n[Your Name]"
+  }
+]
