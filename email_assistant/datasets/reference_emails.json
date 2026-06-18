@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category": "Follow-up Email",
+    "reference_email": "Subject: Follow-Up on Our June 15th Meeting – Action Items & Next Steps\n\nDear [Recipient Name],\n\nThank you for the productive meeting on June 15th. It was great to align on our AI automation strategy, and I wanted to follow up to confirm the key action items and next steps we agreed upon.\n\nAs discussed, I will share the project proposal with you by June 22nd for your review. Please note that budget approval from the CFO will be a critical milestone before we can proceed to implementation, so early visibility into the proposal will be helpful on your end.\n\nOur next meeting is scheduled for June 29th — I will send a calendar confirmation shortly. In the meantime, please do not hesitate to reach out if you have any questions or if there is anything you need from me ahead of the proposal.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 2,
+    "category": "Proposal Request",
+    "reference_email": "Subject: Request for Proposal – Cloud Migration Services (50TB, AWS)\n\nDear [Recipient Name],\n\nI am writing to formally request a detailed proposal for cloud migration services on behalf of our organisation. We are looking to migrate approximately 50TB of on-premise data to AWS, and we are seeking a partner with the expertise to manage this transition efficiently and securely.\n\nOur target is to complete the migration by Q4 2025, and our overall budget ceiling is $150,000. We kindly ask that your proposal include a fully itemised cost breakdown covering all phases of the migration, as well as a realistic project timeline with key milestones clearly defined.\n\nPlease submit your proposal at your earliest convenience so we can assess it alongside other submissions. Should you require any additional information about our current infrastructure, we are happy to arrange a discovery call at a mutually convenient time.\n\nYours sincerely,\n[Your Name]"
+  },
+  {
+    "id": 3,
+    "category": "Interview Scheduling",
+    "reference_email": "Subject: Interview Invitation – Senior Software Engineer Position\n\nDear [Recipient Name],\n\nCongratulations on being shortlisted for the Senior Software Engineer role — we were very impressed with your application and are excited to learn more about you.\n\nWe would like to invite you to a 90-minute interview conducted via Google Meet. We have two dates available: June 24th or June 25th — please let us know which works best for you and we will confirm the exact time. You will be meeting with our CTO and two senior engineers, who are looking forward to a great conversation.\n\nPlease reply with your preferred date at your earliest convenience and we will send you a calendar invite along with the Google Meet link. If neither date works, do not hesitate to let us know and we will do our best to accommodate you.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "id": 4,
+    "category": "Apology Email",
+    "reference_email": "Subject: Sincere Apologies Regarding Your May Invoice – Resolution Confirmed\n\nDear [Recipient Name],\n\nI am reaching out to personally apologise for the billing error that appeared on your May invoice. You were incorrectly overcharged $340, and I want to assure you that this has been taken extremely seriously by our team.\n\nThe error was caused by a bug introduced during a recent system migration. Our engineering team has since identified, fixed, and thoroughly tested the issue to ensure it cannot recur. I am pleased to confirm that a full refund of $340 was processed on June 12th and should appear on your account within 3–5 business days.\n\nAs a further gesture of goodwill, we are applying a 10% discount to your next month's invoice. We deeply value your trust and your continued partnership. Please feel free to reach out directly if you have any further questions or concerns — I am here to help.\n\nSincerely,\n[Your Name]"
+  },
+  {
+    "id": 5,
+    "category": "Project Update",
+    "reference_email": "Subject: Weekly Project Update – CRM Platform Redesign (Week of June 16th)\n\nDear [Recipient Name],\n\nHere is this week's status update for the CRM Platform Redesign project. Overall, the project remains on track for the July 15th launch.\n\nThe team is currently in the UI development phase, which is approximately 70% complete. One risk to flag: a third-party API dependency is introducing a 3-day delay in a non-critical component; the team is actively mitigating this to prevent any impact on the launch date. Our next milestone is the start of QA testing, which is scheduled to begin on June 30th.\n\nI will continue to send weekly updates as we approach launch. Please do not hesitate to reach out if you have questions or would like a deeper dive on any specific area.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 6,
+    "category": "Customer Complaint Response",
+    "reference_email": "Subject: Your Order #7823 – Our Apologies and Resolution\n\nDear [Recipient Name],\n\nThank you for bringing this to our attention, and please accept our sincerest apologies for the delay in delivering your Order #7823. We understand how frustrating a 5-day delay can be, and we take full responsibility for the disruption this caused.\n\nThe delay was the result of unexpected staffing issues at our warehouse, which temporarily impacted our dispatch capacity. I am pleased to confirm that your package was delivered on June 14th. To make this right, we would like to offer you complimentary expedited shipping on your next order — this will be applied automatically at checkout.\n\nWe have also launched a new dedicated customer support line at 1-800-555-0199, available to assist you with any future concerns quickly and directly. We truly value your business and are committed to doing better. Please do not hesitate to reach out if there is anything else we can help with.\n\nWarm regards,\n[Your Name]"
+  },
+  {
+    "id": 7,
+    "category": "Meeting Invitation",
+    "reference_email": "Subject: URGENT – Mandatory Budget Review Meeting, June 20th at 2:00 PM EST\n\nDear [Recipient Name],\n\nI am writing to formally notify you of an emergency budget review meeting scheduled for June 20th at 2:00 PM EST. This meeting will run for 2 hours and attendance is mandatory for all department heads without exception.\n\nThe agenda will focus on a detailed analysis of the Q2 budget overrun and the identification of corrective actions to be implemented immediately. To ensure we make the most of our time together, pre-read materials will be distributed to all attendees 24 hours in advance — please review them thoroughly before the meeting.\n\nPlease confirm your attendance by return and flag any scheduling conflicts to me directly as soon as possible. Given the urgency of the matters to be discussed, I must stress the importance of your presence.\n\nYours sincerely,\n[Your Name]"
+  },
+  {
+    "id": 8,
+    "category": "Partnership Inquiry",
+    "reference_email": "Subject: Strategic Partnership Opportunity – Co-Marketing in the SME Fintech Space\n\nDear [Recipient Name],\n\nI hope this message finds you well. I am reaching out because I believe there is a compelling and mutually beneficial opportunity for our two organisations to collaborate, and I wanted to open that conversation.\n\nBoth of our companies serve the SME fintech market, and I see a natural alignment between our audiences and expertise. I am proposing a co-marketing partnership centred on a joint webinar series and co-branded content — an approach that could give us access to a combined audience of over 75,000 professionals. I also have some ideas around a revenue sharing model that I believe would be equitable and motivating for both sides.\n\nI would love to explore this further in a 30-minute introductory call at your convenience. Would you be open to finding time in the coming weeks? I am confident that even an initial conversation could surface some exciting possibilities.\n\nBest regards,\n[Your Name]"
+  },
+  {
+    "id": 9,
+    "category": "Invoice Reminder",
+    "reference_email": "Subject: FINAL NOTICE – Invoice #2091 ($8,500) Now 21 Days Overdue\n\nDear [Recipient Name],\n\nI am writing regarding Invoice #2091, totalling $8,500, which was due for payment on May 31st. The invoice is now 21 days overdue, and despite three previous reminders, we have not received payment or any correspondence from your team.\n\nI must bring to your attention that a late fee of 2% will be applied to the outstanding balance after June 25th if payment has not been received. To avoid this additional charge, we ask that you arrange payment immediately. Payment can be made via bank transfer using the details on the original invoice, or through our secure online portal.\n\nIf you are experiencing difficulties or have a query regarding this invoice, please contact me directly today so we can discuss a resolution. We would prefer to resolve this matter promptly and amicably.\n\nYours sincerely,\n[Your Name]"
+  },
+  {
+    "id": 10,
+    "category": "Thank-You Email",
+    "reference_email": "Subject: A Heartfelt Thank You – I Couldn't Have Done It Without You\n\nDear [Recipient Name],\n\nI wanted to take a moment to reach out and express my deepest gratitude for everything you have done for me over the past 6 months. Your guidance, encouragement, and willingness to share your experience have meant more to me than I can adequately put into words.\n\nI am thrilled to share that the referral you provided led to a successful job offer at TechCorp. I will be starting as a Product Manager on July 1st, and the salary is 35% above my previous role — a life-changing outcome that I genuinely could not have achieved without your support and belief in me.\n\nI would love to take you out for lunch to celebrate and say thank you properly — please let me know when you are free and I will make all the arrangements. It would be my absolute honour.\n\nWith warm gratitude,\n[Your Name]"
+  }
+]

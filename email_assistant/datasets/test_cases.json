@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "category": "Follow-up Email",
+    "intent": "Follow up after a business meeting to confirm action items",
+    "facts": [
+      "Meeting held on June 15th",
+      "Discussed AI automation strategy",
+      "Action item: share project proposal by June 22nd",
+      "Next meeting scheduled for June 29th",
+      "Budget approval needed from CFO"
+    ],
+    "tone": "Professional"
+  },
+  {
+    "id": 2,
+    "category": "Proposal Request",
+    "intent": "Request a detailed vendor proposal for cloud migration services",
+    "facts": [
+      "Company has 50TB of on-premise data",
+      "Target cloud platform: AWS",
+      "Migration must complete by Q4 2025",
+      "Budget ceiling is $150,000",
+      "Need itemised cost breakdown and timeline"
+    ],
+    "tone": "Formal"
+  },
+  {
+    "id": 3,
+    "category": "Interview Scheduling",
+    "intent": "Schedule a job interview with a shortlisted candidate",
+    "facts": [
+      "Position: Senior Software Engineer",
+      "Interview date options: June 24th or June 25th",
+      "Interview duration: 90 minutes",
+      "Format: video call via Google Meet",
+      "Panel includes CTO and two senior engineers"
+    ],
+    "tone": "Friendly and professional"
+  },
+  {
+    "id": 4,
+    "category": "Apology Email",
+    "intent": "Apologise to a client for a billing error and confirm resolution",
+    "facts": [
+      "Client was overcharged $340 on May invoice",
+      "Error caused by system migration bug",
+      "Full refund of $340 processed on June 12th",
+      "Bug has been fixed and tested",
+      "Offering 10% discount on next month's invoice"
+    ],
+    "tone": "Empathetic and sincere"
+  },
+  {
+    "id": 5,
+    "category": "Project Update",
+    "intent": "Send a weekly project status update to stakeholders",
+    "facts": [
+      "Project: CRM Platform Redesign",
+      "Current phase: UI development, 70% complete",
+      "On track for July 15th launch",
+      "Risk: third-party API dependency causing 3-day delay",
+      "Next milestone: QA testing begins June 30th"
+    ],
+    "tone": "Professional and concise"
+  },
+  {
+    "id": 6,
+    "category": "Customer Complaint Response",
+    "intent": "Respond to a customer complaint about delayed delivery",
+    "facts": [
+      "Order #7823 was delayed by 5 days",
+      "Delay caused by warehouse staffing issues",
+      "Package delivered on June 14th",
+      "Offering free expedited shipping on next order",
+      "New dedicated support line: 1-800-555-0199"
+    ],
+    "tone": "Empathetic and solution-focused"
+  },
+  {
+    "id": 7,
+    "category": "Meeting Invitation",
+    "intent": "Invite department heads to an emergency budget review meeting",
+    "facts": [
+      "Meeting on June 20th at 2:00 PM EST",
+      "Duration: 2 hours",
+      "Agenda: Q2 budget overrun analysis and corrective actions",
+      "Attendance is mandatory for all department heads",
+      "Pre-read materials will be shared 24 hours in advance"
+    ],
+    "tone": "Urgent and formal"
+  },
+  {
+    "id": 8,
+    "category": "Partnership Inquiry",
+    "intent": "Reach out to a potential strategic partner about a co-marketing opportunity",
+    "facts": [
+      "Both companies serve the SME fintech market",
+      "Proposing joint webinar series and co-branded content",
+      "Combined audience reach: 75,000+ professionals",
+      "Revenue sharing model to be discussed",
+      "Requesting 30-minute introductory call"
+    ],
+    "tone": "Confident and collaborative"
+  },
+  {
+    "id": 9,
+    "category": "Invoice Reminder",
+    "intent": "Send a final payment reminder for an overdue invoice",
+    "facts": [
+      "Invoice #2091 for $8,500 due on May 31st",
+      "Payment is now 21 days overdue",
+      "Three previous reminders sent with no response",
+      "Late fee of 2% will apply after June 25th",
+      "Payment accepted via bank transfer or online portal"
+    ],
+    "tone": "Firm and professional"
+  },
+  {
+    "id": 10,
+    "category": "Thank-You Email",
+    "intent": "Thank a mentor for career guidance and a referral",
+    "facts": [
+      "Mentor provided guidance over the past 6 months",
+      "Referral led to a successful job offer at TechCorp",
+      "New role: Product Manager starting July 1st",
+      "Salary is 35% above previous role",
+      "Offering to buy lunch as a token of appreciation"
+    ],
+    "tone": "Warm and genuine"
+  }
+]
