@@ -30,7 +30,7 @@ with st.sidebar:
     st.header("Settings")
     model_choice = st.radio(
         "Select Model",
-        ["A — llama-3.3-70b (Advanced)", "B — deepseek-r1 (Baseline)"],
+        ["A — llama-3.3-70b (Advanced)", "B — qwen3.6-27b (Baseline)"],
     )
     model_key = "A" if model_choice.startswith("A") else "B"
 
