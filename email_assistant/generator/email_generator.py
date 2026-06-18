@@ -2,6 +2,7 @@
 
 import logging
 import os
+import re
 from groq import Groq
 from dotenv import load_dotenv
 from generator.prompt_builder import build_model_a_messages, build_model_b_messages
@@ -25,6 +26,11 @@ def _get_client() -> Groq:
     return _client
 
 
+def _strip_thinking(text: str) -> str:
+    """Remove <think>...</think> blocks emitted by reasoning models."""
+    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+
+
 def _call_groq(messages: list[dict], model: str, temperature: float = 0.7, max_tokens: int = 900) -> str:
     client = _get_client()
     try:
@@ -34,7 +40,8 @@ def _call_groq(messages: list[dict], model: str, temperature: float = 0.7, max_t
             temperature=temperature,
             max_tokens=max_tokens,
         )
-        return response.choices[0].message.content.strip()
+        content = response.choices[0].message.content.strip()
+        return _strip_thinking(content)
     except Exception as e:
         logger.error(f"Groq API error for model {model}: {e}")
         raise
