@@ -84,7 +84,7 @@ def evaluate_one(scenario: dict, model: str) -> dict:
 
     final = compute_final_score(fis, tas, pess)
 
-    model_name = "llama-3.3-70b-versatile" if model == "A" else "deepseek-r1-distill-llama-70b"
+    model_name = "llama-3.3-70b-versatile" if model == "A" else "qwen-qwq-32b"
 
     return {
         "ScenarioID": scenario["id"],
@@ -114,7 +114,7 @@ def run_evaluation() -> pd.DataFrame:
     for model_key in ["A", "B"]:
         model_label = (
             "A (llama-3.3-70b-versatile)" if model_key == "A"
-            else "B (deepseek-r1-distill-llama-70b)"
+            else "B (qwen-qwq-32b)"
         )
         logger.info(f"\n{'='*60}")
         logger.info(f"Evaluating Model {model_label}")
