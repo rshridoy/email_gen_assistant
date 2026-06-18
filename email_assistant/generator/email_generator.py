@@ -31,6 +31,15 @@ def _strip_thinking(text: str) -> str:
     return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
 
 
+def _clean_output(text: str) -> str:
+    """Remove model meta-commentary and markdown formatting from email output."""
+    # Drop trailing separator + Note/Disclaimer blocks some models append
+    text = re.sub(r"\n[-*]{3,}.*", "", text, flags=re.DOTALL)
+    # Strip markdown bold markers (**text** → text)
+    text = re.sub(r"\*\*(.+?)\*\*", r"\1", text)
+    return text.strip()
+
+
 def _call_groq(messages: list[dict], model: str, temperature: float = 0.7, max_tokens: int = 900) -> str:
     client = _get_client()
     try:
@@ -41,7 +50,8 @@ def _call_groq(messages: list[dict], model: str, temperature: float = 0.7, max_t
             max_tokens=max_tokens,
         )
         content = response.choices[0].message.content.strip()
-        return _strip_thinking(content)
+        content = _strip_thinking(content)
+        return _clean_output(content)
     except Exception as e:
         logger.error(f"Groq API error for model {model}: {e}")
         raise
