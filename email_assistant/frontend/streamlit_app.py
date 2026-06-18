@@ -22,7 +22,7 @@ st.title("✉️ Email Generation Assistant")
 st.caption(
     "Powered by Groq Cloud — "
     "llama-3.3-70b-versatile (Model A · Advanced) vs "
-    "qwen-qwq-32b (Model B · Baseline)"
+    "qwen/qwen3.6-27b (Model B · Baseline)"
 )
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────

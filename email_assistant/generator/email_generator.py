@@ -10,7 +10,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 MODEL_A_ID = "llama-3.3-70b-versatile"
-MODEL_B_ID = "qwen-qwq-32b"
+MODEL_B_ID = "qwen/qwen3.6-27b"
 
 _client: Groq | None = None
 
